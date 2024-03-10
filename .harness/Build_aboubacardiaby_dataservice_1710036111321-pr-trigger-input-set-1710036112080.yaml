@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_aboubacardiaby_dataservice_1710036111321-pr-trigger-input-set
+  identifier: Build_aboubacardiaby_dataservice_1710036111321prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: dataservice
+  pipeline:
+    identifier: Build_aboubacardiaby_dataservice_1710036111321
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
